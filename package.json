@@ -2,20 +2,23 @@
   "name": "grizzle",
   "version": "1.0.0",
   "description": "Tools to help generate node projects with CI, test suites, and more",
-  "main": "index.js",
+  "main": "cli.js",
+  "bin": {
+    "grizzle": "./cli.js"
+  },
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grizzly-atoms/node-toolchest.git"
+    "url": "git+https://github.com/grizzly-atoms/grizzle.git"
   },
   "author": "Joshua Kaiser",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grizzly-atoms/node-toolchest/issues"
+    "url": "https://github.com/grizzly-atoms/grizzle/issues"
   },
-  "homepage": "https://github.com/grizzly-atoms/node-toolchest#readme",
+  "homepage": "https://github.com/grizzly-atoms/grizzle#readme",
   "devDependencies": {
     "jest": "^24.3.1"
   }
